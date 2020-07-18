@@ -2,6 +2,9 @@
 	"name": "dailyquote",
 	"displayName": "DailyQuote",
 	"description": "",
+	"publisher": "lrusso96",
+	"icon": "icon.png",
+	"repository": "https://github.com/lrusso96/daily-quote",
 	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.47.0"
@@ -30,9 +33,11 @@
 		"pretest": "npm run compile && npm run lint",
 		"test": "node ./out/test/runTest.js"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"axios": "0.19.2",
-		"node-html-parser": "1.2.20",
+		"node-html-parser": "1.2.20"
+	},
+	"devDependencies": {
 		"@types/vscode": "^1.47.0",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^7.0.2",
